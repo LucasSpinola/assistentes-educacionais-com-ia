@@ -6,72 +6,167 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <style>
-    :root { --azul: #0969da; --tinta: #1f2328; --suave: #656d76; --linha: #d0d7de; --fundo-codigo: #f6f8fa; }
+    :root {
+      --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --border: #d1d9e0;
+      --link: #0969da; --accent: #4f46e5; --sidebar: #f7f8fa; --code-bg: #f3f5f8;
+      --pill: #eef1f6;
+      --tok-comment: #6e7781; --tok-keyword: #cf222e; --tok-string: #0a3069;
+      --tok-number: #0550ae; --tok-function: #8250df; --tok-class: #953800;
+      --tok-builtin: #0550ae; --tok-operator: #0550ae;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --border: #2a3038;
+        --link: #4493f8; --accent: #a78bfa; --sidebar: #0b0e14; --code-bg: #161b22;
+        --pill: #1c2128;
+        --tok-comment: #8b949e; --tok-keyword: #ff7b72; --tok-string: #a5d6ff;
+        --tok-number: #79c0ff; --tok-function: #d2a8ff; --tok-class: #ffa657;
+        --tok-builtin: #79c0ff; --tok-operator: #79c0ff;
+      }
+    }
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
-      margin: 0;
+      margin: 0; background: var(--bg); color: var(--fg);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      color: var(--tinta);
-      line-height: 1.6;
-      background: #fff;
+      line-height: 1.65; font-size: 16px;
     }
-    a { color: var(--azul); text-decoration: none; }
+    a { color: var(--link); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    header.topo {
-      position: sticky; top: 0; z-index: 10;
-      background: #fff; border-bottom: 1px solid var(--linha);
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 12px 20px;
+
+    .wrap { display: grid; grid-template-columns: 280px minmax(0, 1fr); }
+
+    /* Barra lateral */
+    .nav {
+      position: sticky; top: 0; height: 100vh; overflow-y: auto;
+      background: var(--sidebar); border-right: 1px solid var(--border);
     }
-    header.topo .marca { font-weight: 600; color: var(--tinta); }
-    header.topo nav a { margin-left: 18px; font-size: 14px; }
-    main {
-      max-width: 860px; margin: 0 auto; padding: 32px 20px 80px;
+    .nav > summary { display: none; }
+    .nav-inner { padding: 22px 18px 40px; }
+    .brand { display: block; font-weight: 700; font-size: 17px; color: var(--fg); line-height: 1.3; }
+    .brand:hover { text-decoration: none; }
+    .brand-sub { margin: 4px 0 18px; font-size: 12.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .nav-sec { margin: 20px 0 6px; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+    .nav ul { list-style: none; margin: 0; padding: 0; }
+    .nav li a {
+      display: block; padding: 5px 10px; margin: 1px 0; border-radius: 6px;
+      color: var(--fg); font-size: 14px; border-left: 2px solid transparent;
     }
-    main img { max-width: 100%; height: auto; }
-    h1, h2, h3 { line-height: 1.25; margin-top: 1.6em; }
-    h1 { font-size: 2em; }
-    h2 { padding-bottom: .3em; border-bottom: 1px solid var(--linha); }
+    .nav li a:hover { background: var(--pill); text-decoration: none; }
+    .nav li a.active {
+      color: var(--accent); font-weight: 600; background: var(--pill);
+      border-left-color: var(--accent);
+    }
+    .gh {
+      display: inline-block; margin-top: 24px; padding: 7px 14px;
+      border: 1px solid var(--border); border-radius: 8px; font-size: 13.5px;
+      color: var(--fg);
+    }
+    .gh:hover { background: var(--pill); text-decoration: none; }
+
+    /* Conteúdo */
+    main { min-width: 0; }
+    .prose { max-width: 860px; margin: 0 auto; padding: 40px 28px 24px; }
+    .prose h1, .prose h2, .prose h3, .prose h4 { line-height: 1.25; margin: 1.6em 0 .6em; font-weight: 650; }
+    .prose h1 { font-size: 2.05em; margin-top: .2em; letter-spacing: -.01em; }
+    .prose h2 { font-size: 1.5em; padding-bottom: .3em; border-bottom: 1px solid var(--border); }
+    .prose h3 { font-size: 1.2em; }
+    .prose p, .prose li { overflow-wrap: break-word; }
+    .prose img { max-width: 100%; height: auto; border-radius: 8px; }
+    .prose a { font-weight: 500; }
+
     code {
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 85%; background: var(--fundo-codigo);
-      padding: .2em .4em; border-radius: 6px;
+      font-size: 85%; background: var(--code-bg); padding: .18em .4em; border-radius: 6px;
+      border: 1px solid var(--border);
     }
     pre {
-      background: var(--fundo-codigo); padding: 16px; border-radius: 8px;
-      overflow: auto; line-height: 1.45;
+      background: var(--code-bg); border: 1px solid var(--border); padding: 16px;
+      border-radius: 10px; overflow: auto; line-height: 1.5;
     }
-    pre code { background: none; padding: 0; font-size: 90%; }
+    pre code { background: none; border: none; padding: 0; font-size: 87%; }
+
     blockquote {
-      margin: 1em 0; padding: 0 1em; color: var(--suave);
-      border-left: .25em solid var(--linha);
+      margin: 1.2em 0; padding: .4em 1.1em; color: var(--muted);
+      border-left: 4px solid var(--accent); background: var(--pill);
+      border-radius: 0 8px 8px 0;
     }
-    table { border-collapse: collapse; width: 100%; margin: 1em 0; display: block; overflow: auto; }
-    th, td { border: 1px solid var(--linha); padding: 6px 13px; }
-    tr:nth-child(2n) { background: var(--fundo-codigo); }
-    .mermaid { margin: 1.5em 0; text-align: center; }
-    footer { max-width: 860px; margin: 0 auto; padding: 24px 20px 60px; color: var(--suave); font-size: 14px; border-top: 1px solid var(--linha); }
+    blockquote p { margin: .4em 0; }
+
+    table { border-collapse: collapse; width: 100%; margin: 1.2em 0; display: block; overflow: auto; }
+    th, td { border: 1px solid var(--border); padding: 8px 13px; }
+    thead th { background: var(--pill); }
+    tbody tr:nth-child(2n) { background: var(--sidebar); }
+
+    hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }
+    .mermaid { margin: 1.6em 0; text-align: center; }
+
+    footer {
+      max-width: 860px; margin: 0 auto; padding: 28px 28px 64px;
+      color: var(--muted); font-size: 13.5px; border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--muted); text-decoration: underline; }
+
+    /* Realce de sintaxe (Rouge) */
+    .highlight .c, .highlight .c1, .highlight .cm, .highlight .cs { color: var(--tok-comment); font-style: italic; }
+    .highlight .k, .highlight .kd, .highlight .kn, .highlight .kc, .highlight .kp, .highlight .kt, .highlight .nt { color: var(--tok-keyword); }
+    .highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .se, .highlight .sd, .highlight .sh { color: var(--tok-string); }
+    .highlight .mi, .highlight .mf, .highlight .mh, .highlight .il, .highlight .m { color: var(--tok-number); }
+    .highlight .nf, .highlight .fm, .highlight .na { color: var(--tok-function); }
+    .highlight .nc, .highlight .nn, .highlight .ne { color: var(--tok-class); }
+    .highlight .nb, .highlight .bp { color: var(--tok-builtin); }
+    .highlight .o, .highlight .ow { color: var(--tok-operator); }
+
+    @media (max-width: 880px) {
+      .wrap { grid-template-columns: 1fr; }
+      .nav { position: static; height: auto; overflow: visible; border-right: none; border-bottom: 1px solid var(--border); }
+      .nav > summary {
+        display: block; list-style: none; cursor: pointer;
+        padding: 14px 18px; font-weight: 600; color: var(--fg);
+      }
+      .nav > summary::-webkit-details-marker { display: none; }
+      .nav > summary::before { content: "\2630"; margin-right: 10px; color: var(--accent); }
+      .prose { padding: 28px 20px 20px; }
+    }
   </style>
 </head>
 <body>
-  <header class="topo">
-    <a class="marca" href="{{ '/' | relative_url }}">AI for Educational Assistants</a>
-    <nav>
-      <a href="{{ '/roadmap' | relative_url }}">Trilha</a>
-      <a href="{{ '/docs/como-estudar' | relative_url }}">Como estudar</a>
-      <a href="https://github.com/LucasSpinola/assistentes-educacionais-com-ia">GitHub</a>
-    </nav>
-  </header>
+  <div class="wrap">
+    <details class="nav" open>
+      <summary>Menu</summary>
+      <div class="nav-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">AI for Educational Assistants</a>
+        <p class="brand-sub">Do zero ao avançado</p>
+        {% for sec in site.data.nav %}
+          <p class="nav-sec">{{ sec.titulo }}</p>
+          <ul>
+            {% for item in sec.itens %}
+              {% assign active = false %}
+              {% if item.url == '/' %}
+                {% if page.url == '/' or page.url == '/index.html' %}{% assign active = true %}{% endif %}
+              {% elsif page.url contains item.url %}
+                {% assign active = true %}
+              {% endif %}
+              <li><a href="{{ item.url | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{{ item.nome }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+        <a class="gh" href="https://github.com/LucasSpinola/assistentes-educacionais-com-ia">Ver no GitHub</a>
+      </div>
+    </details>
 
-  <main>
-    {{ content }}
-  </main>
+    <main>
+      <article class="prose">
+        {{ content }}
+      </article>
+      <footer>
+        Conteúdo sob <a href="{{ '/LICENSE-CONTENT' | relative_url }}">Creative Commons Atribuição 4.0</a>,
+        código sob <a href="{{ '/LICENSE' | relative_url }}">licença MIT</a>.
+        Construído por Lucas Spinola.
+      </footer>
+    </main>
+  </div>
 
-  <footer>
-    Conteúdo sob Creative Commons Atribuição 4.0, código sob licença MIT.
-  </footer>
-
-  <!-- MathJax: fórmulas com $...$ e $$...$$ -->
   <script>
     window.MathJax = {
       tex: {
@@ -83,12 +178,12 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 
-  <!-- Mermaid: converte os blocos ```mermaid em diagramas -->
   <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: false, theme: 'default' });
+    const escuro = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    mermaid.initialize({ startOnLoad: false, theme: escuro ? 'dark' : 'default' });
     document.querySelectorAll('.language-mermaid').forEach(function (bloco) {
-      var div = document.createElement('div');
+      const div = document.createElement('div');
       div.className = 'mermaid';
       div.textContent = bloco.textContent.trim();
       bloco.replaceWith(div);

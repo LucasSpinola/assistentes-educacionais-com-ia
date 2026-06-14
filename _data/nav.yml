@@ -1,0 +1,31 @@
+- titulo: Começar
+  itens:
+    - { nome: "Início", url: "/" }
+    - { nome: "Trilha completa", url: "/roadmap" }
+    - { nome: "Como estudar", url: "/docs/como-estudar" }
+    - { nome: "Instalação", url: "/docs/setup" }
+
+- titulo: Módulos
+  itens:
+    - { nome: "01 · Introdução à IA", url: "/lessons/modulo-01-introducao-ia/" }
+    - { nome: "02 · Fundamentos de ML", url: "/lessons/modulo-02-fundamentos-ml/" }
+    - { nome: "03 · Fundamentos de NLP", url: "/lessons/modulo-03-fundamentos-nlp/" }
+    - { nome: "04 · Word Embeddings", url: "/lessons/modulo-04-word-embeddings/" }
+    - { nome: "05 · Deep Learning para NLP", url: "/lessons/modulo-05-deep-learning-nlp/" }
+    - { nome: "06 · Transformers", url: "/lessons/modulo-06-transformers/" }
+    - { nome: "07 · Large Language Models", url: "/lessons/modulo-07-llms/" }
+    - { nome: "08 · Prompt Engineering", url: "/lessons/modulo-08-prompt-engineering/" }
+    - { nome: "09 · RAG", url: "/lessons/modulo-09-rag/" }
+    - { nome: "10 · Agentes", url: "/lessons/modulo-10-agentes/" }
+    - { nome: "11 · Multi-Agentes", url: "/lessons/modulo-11-multi-agentes/" }
+    - { nome: "12 · Learning Analytics", url: "/lessons/modulo-12-learning-analytics/" }
+    - { nome: "13 · Student Modeling", url: "/lessons/modulo-13-student-modeling/" }
+    - { nome: "14 · Projeto Final", url: "/lessons/modulo-14-projeto-final/" }
+
+- titulo: Mais
+  itens:
+    - { nome: "Projetos", url: "/projects/" }
+    - { nome: "Glossário", url: "/docs/glossario" }
+    - { nome: "Notação matemática", url: "/docs/notacao-matematica" }
+    - { nome: "Referências", url: "/references/" }
+    - { nome: "Papers", url: "/papers/" }

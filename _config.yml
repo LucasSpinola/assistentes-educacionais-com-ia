@@ -1,6 +1,8 @@
 title: AI for Educational Assistants
 description: Trilha aberta e gratuita para construir assistentes educacionais inteligentes, do zero ao avançado.
 lang: pt-BR
+baseurl: "/assistentes-educacionais-com-ia"
+url: "https://lucasspinola.github.io"
 
 # Deixa as fórmulas LaTeX (inclusive as de cifrão simples) para o MathJax tratar,
 # em vez de o kramdown converter para um formato que o MathJax 3 não lê.
@@ -21,5 +23,3 @@ exclude:
   - requirements.txt
   - .env.example
   - .gitignore
-  - LICENSE
-  - LICENSE-CONTENT
