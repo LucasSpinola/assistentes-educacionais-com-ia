@@ -8,8 +8,8 @@
   <style>
     :root {
       --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --border: #d1d9e0;
-      --link: #0969da; --accent: #4f46e5; --sidebar: #f7f8fa; --code-bg: #f3f5f8;
-      --pill: #eef1f6;
+      --link: #0969da; --accent: #4f46e5; --sidebar: #fbfbfd; --code-bg: #f3f5f8;
+      --pill: #eceef3; --hover: #f0f1f5;
       --tok-comment: #6e7781; --tok-keyword: #cf222e; --tok-string: #0a3069;
       --tok-number: #0550ae; --tok-function: #8250df; --tok-class: #953800;
       --tok-builtin: #0550ae; --tok-operator: #0550ae;
@@ -18,7 +18,7 @@
       :root {
         --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --border: #2a3038;
         --link: #4493f8; --accent: #a78bfa; --sidebar: #0b0e14; --code-bg: #161b22;
-        --pill: #1c2128;
+        --pill: #1c2230; --hover: #161b22;
         --tok-comment: #8b949e; --tok-keyword: #ff7b72; --tok-string: #a5d6ff;
         --tok-number: #79c0ff; --tok-function: #d2a8ff; --tok-class: #ffa657;
         --tok-builtin: #79c0ff; --tok-operator: #79c0ff;
@@ -34,35 +34,48 @@
     a { color: var(--link); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
-    .wrap { display: grid; grid-template-columns: 280px minmax(0, 1fr); }
+    .wrap { display: grid; grid-template-columns: 286px minmax(0, 1fr); }
 
     /* Barra lateral */
     .nav {
       position: sticky; top: 0; height: 100vh; overflow-y: auto;
       background: var(--sidebar); border-right: 1px solid var(--border);
+      scrollbar-width: thin;
     }
     .nav > summary { display: none; }
-    .nav-inner { padding: 22px 18px 40px; }
-    .brand { display: block; font-weight: 700; font-size: 17px; color: var(--fg); line-height: 1.3; }
+    .nav-inner { padding: 24px 16px 48px; }
+
+    .brand-box { padding: 0 8px 16px; border-bottom: 1px solid var(--border); margin-bottom: 8px; }
+    .brand { display: block; font-weight: 700; font-size: 15px; line-height: 1.35; color: var(--fg); }
     .brand:hover { text-decoration: none; }
-    .brand-sub { margin: 4px 0 18px; font-size: 12.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
-    .nav-sec { margin: 20px 0 6px; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+    .brand-sub { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); }
+
+    .nav-sec {
+      margin: 22px 8px 6px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .07em; color: var(--muted);
+    }
     .nav ul { list-style: none; margin: 0; padding: 0; }
     .nav li a {
-      display: block; padding: 5px 10px; margin: 1px 0; border-radius: 6px;
-      color: var(--fg); font-size: 14px; border-left: 2px solid transparent;
+      display: flex; align-items: baseline; gap: 8px;
+      padding: 6px 10px; margin: 1px 0; border-radius: 7px;
+      color: var(--fg); font-size: 13.5px; line-height: 1.4;
     }
-    .nav li a:hover { background: var(--pill); text-decoration: none; }
+    .nav li a:hover { background: var(--hover); text-decoration: none; }
+    .nav li a .num {
+      flex: 0 0 auto; min-width: 18px; color: var(--muted);
+      font-size: 12px; font-variant-numeric: tabular-nums;
+    }
     .nav li a.active {
       color: var(--accent); font-weight: 600; background: var(--pill);
-      border-left-color: var(--accent);
     }
+    .nav li a.active .num { color: var(--accent); }
+
     .gh {
-      display: inline-block; margin-top: 24px; padding: 7px 14px;
-      border: 1px solid var(--border); border-radius: 8px; font-size: 13.5px;
-      color: var(--fg);
+      display: block; text-align: center; margin: 26px 8px 0; padding: 8px 14px;
+      border: 1px solid var(--border); border-radius: 8px; font-size: 13px;
+      color: var(--fg); background: var(--bg);
     }
-    .gh:hover { background: var(--pill); text-decoration: none; }
+    .gh:hover { background: var(--hover); text-decoration: none; }
 
     /* Conteúdo */
     main { min-width: 0; }
@@ -135,8 +148,10 @@
     <details class="nav" open>
       <summary>Menu</summary>
       <div class="nav-inner">
-        <a class="brand" href="{{ '/' | relative_url }}">AI for Educational Assistants</a>
-        <p class="brand-sub">Do zero ao avançado</p>
+        <div class="brand-box">
+          <a class="brand" href="{{ '/' | relative_url }}">AI for Educational Assistants</a>
+          <p class="brand-sub">Trilha do zero ao avançado</p>
+        </div>
         {% for sec in site.data.nav %}
           <p class="nav-sec">{{ sec.titulo }}</p>
           <ul>
@@ -147,7 +162,7 @@
               {% elsif page.url contains item.url %}
                 {% assign active = true %}
               {% endif %}
-              <li><a href="{{ item.url | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{{ item.nome }}</a></li>
+              <li><a href="{{ item.url | relative_url }}"{% if active %} class="active" aria-current="page"{% endif %}>{% if item.num %}<span class="num">{{ item.num }}</span>{% endif %}<span>{{ item.nome }}</span></a></li>
             {% endfor %}
           </ul>
         {% endfor %}
