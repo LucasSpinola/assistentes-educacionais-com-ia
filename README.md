@@ -37,15 +37,15 @@ sessões. E você vai entender cada peça por dentro, sem caixas-pretas.
 
 O que torna este material diferente:
 
-- **Do zero primeiro.** Cada algoritmo é implementado à mão, em Python puro ou numpy, antes de
+- **Do zero primeiro:** cada algoritmo é implementado à mão, em Python puro ou numpy, antes de
   mostrar a biblioteca pronta. Você vê como a coisa funciona, não só como chamá-la.
-- **Roda sem fricção.** Os exemplos e os projetos centrais rodam só com a biblioteca padrão. O
+- **Roda sem fricção:** os exemplos e os projetos centrais rodam só com a biblioteca padrão. O
   caminho com Ollama, embeddings densos e bancos vetoriais é opcional e degrada com elegância.
-- **Referências de verdade.** Toda referência científica é real e verificada no Google Scholar, no
+- **Referências de verdade:** toda referência científica é real e verificada no Google Scholar, no
   arXiv ou pelo DOI, nunca inventada.
-- **Um fio condutor.** Tudo aponta para o mesmo objetivo, um assistente que ensina, avalia, orienta
+- **Um fio condutor:** tudo aponta para o mesmo objetivo, um assistente que ensina, avalia, orienta
   e se adapta ao aluno.
-- **Pronto para usar.** São 14 módulos com aulas, notebooks e seis projetos com testes, do RAG ao
+- **Pronto para usar:** são 14 módulos com aulas, notebooks e seis projetos com testes, do RAG ao
   assistente final.
 
 ## A trilha em um olhar
@@ -88,22 +88,22 @@ quem preferir.
 A trilha completa, com pré-requisitos e dependências entre os módulos, está em
 [roadmap.md](roadmap.md). Em resumo, são 14 módulos:
 
-| Módulo | Tema | Projeto |
-|---|---|---|
-| 01 | [Introdução à IA](lessons/modulo-01-introducao-ia/) | |
-| 02 | [Fundamentos de Machine Learning](lessons/modulo-02-fundamentos-ml/) | |
-| 03 | [Fundamentos de NLP](lessons/modulo-03-fundamentos-nlp/) | |
-| 04 | [Word Embeddings](lessons/modulo-04-word-embeddings/) | |
-| 05 | [Deep Learning para NLP](lessons/modulo-05-deep-learning-nlp/) | |
-| 06 | [Transformers](lessons/modulo-06-transformers/) | |
-| 07 | [Large Language Models](lessons/modulo-07-llms/) | |
-| 08 | [Prompt Engineering](lessons/modulo-08-prompt-engineering/) | |
-| 09 | [Retrieval-Augmented Generation](lessons/modulo-09-rag/) | [Assistente sobre documentos](projects/m09-rag-assistant/) |
-| 10 | [Agentes](lessons/modulo-10-agentes/) | [Agente tutor](projects/m10-tutor-agent/) |
-| 11 | [Multi-Agentes](lessons/modulo-11-multi-agentes/) | [Tutor, Evaluator, Mentor e Analytics](projects/m11-multi-agent/) |
-| 12 | [Learning Analytics](lessons/modulo-12-learning-analytics/) | [Dashboard de aprendizado](projects/m12-analytics-dashboard/) |
-| 13 | [Long-Term Student Modeling](lessons/modulo-13-student-modeling/) | [Sistema adaptativo](projects/m13-student-modeling/) |
-| 14 | [Projeto Final](lessons/modulo-14-projeto-final/) | [Assistente educacional multi-agente completo](projects/m14-final-assistant/) |
+| Módulo | Tema | Projeto | Notebook |
+|---|---|---|---|
+| 01 | [Introdução à IA](lessons/modulo-01-introducao-ia/) | | [notebooks](notebooks/modulo-01/) |
+| 02 | [Fundamentos de Machine Learning](lessons/modulo-02-fundamentos-ml/) | | [notebooks](notebooks/modulo-02/) |
+| 03 | [Fundamentos de NLP](lessons/modulo-03-fundamentos-nlp/) | | [notebooks](notebooks/modulo-03/) |
+| 04 | [Word Embeddings](lessons/modulo-04-word-embeddings/) | | [notebooks](notebooks/modulo-04/) |
+| 05 | [Deep Learning para NLP](lessons/modulo-05-deep-learning-nlp/) | | [notebooks](notebooks/modulo-05/) |
+| 06 | [Transformers](lessons/modulo-06-transformers/) | | [notebooks](notebooks/modulo-06/) |
+| 07 | [Large Language Models](lessons/modulo-07-llms/) | | [notebooks](notebooks/modulo-07/) |
+| 08 | [Prompt Engineering](lessons/modulo-08-prompt-engineering/) | | [notebooks](notebooks/modulo-08/) |
+| 09 | [Retrieval-Augmented Generation](lessons/modulo-09-rag/) | [Assistente sobre documentos](projects/m09-rag-assistant/) | [notebooks](notebooks/modulo-09/) |
+| 10 | [Agentes](lessons/modulo-10-agentes/) | [Agente tutor](projects/m10-tutor-agent/) | [notebooks](notebooks/modulo-10/) |
+| 11 | [Multi-Agentes](lessons/modulo-11-multi-agentes/) | [Tutor, Evaluator, Mentor e Analytics](projects/m11-multi-agent/) | [notebooks](notebooks/modulo-11/) |
+| 12 | [Learning Analytics](lessons/modulo-12-learning-analytics/) | [Dashboard de aprendizado](projects/m12-analytics-dashboard/) | [notebooks](notebooks/modulo-12/) |
+| 13 | [Long-Term Student Modeling](lessons/modulo-13-student-modeling/) | [Sistema adaptativo](projects/m13-student-modeling/) | [notebooks](notebooks/modulo-13/) |
+| 14 | [Projeto Final](lessons/modulo-14-projeto-final/) | [Assistente educacional multi-agente completo](projects/m14-final-assistant/) | [notebooks](notebooks/modulo-14/) |
 
 ## Estrutura do repositório
 
