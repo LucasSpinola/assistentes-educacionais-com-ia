@@ -7,6 +7,8 @@
 De tokenização e regressão a Transformers, LLMs, RAG e sistemas multi-agentes, com cada peça
 implementada do zero em Python e reunida, no final, em um assistente educacional completo.
 
+<img src="docs/assets/demo-final-assistant.svg" alt="Demonstração do assistente educacional final rodando no terminal" width="760">
+
 ![Licença de código: MIT](https://img.shields.io/badge/c%C3%B3digo-MIT-blue)
 ![Licença de conteúdo: CC BY 4.0](https://img.shields.io/badge/conte%C3%BAdo-CC%20BY%204.0-lightgrey)
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB)

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="470" viewBox="0 0 820 470" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+  <rect x="0" y="0" width="820" height="470" rx="10" fill="#0d1117"/>
+  <rect x="0" y="0" width="820" height="40" rx="10" fill="#161b22"/>
+  <rect x="0" y="30" width="820" height="10" fill="#161b22"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="20" r="6" fill="#27c93f"/>
+  <text x="410" y="25" text-anchor="middle" fill="#8b949e">demo do assistente final</text>
+
+  <text x="20" y="74" fill="#8b949e">$ python projects/m14-final-assistant/final_assistant.py --demo</text>
+
+  <text x="20" y="104"><tspan fill="#56d364">você&gt;</tspan><tspan fill="#c9d1d9"> o que é a derivada?</tspan></text>
+  <text x="20" y="128" fill="#79c0ff">[Tutor · explicação detalhada, com diagrama]</text>
+  <text x="40" y="150" fill="#c9d1d9">A derivada mede a taxa de variação de uma função. (fonte: derivada)</text>
+
+  <text x="20" y="180"><tspan fill="#56d364">você&gt;</tspan><tspan fill="#c9d1d9"> 28*3/4</tspan></text>
+  <text x="20" y="202" fill="#e3b341">[Calculadora] 28*3/4 = 21.0</text>
+
+  <text x="20" y="232"><tspan fill="#56d364">você&gt;</tspan><tspan fill="#c9d1d9"> exercício de derivada</tspan></text>
+  <text x="20" y="254" fill="#79c0ff">[Tutor] Exercício (fácil): derivada de f(x) = x^2 em x = 3?</text>
+  <text x="20" y="284"><tspan fill="#56d364">você&gt;</tspan><tspan fill="#c9d1d9"> 6</tspan></text>
+  <text x="20" y="306" fill="#56d364">[Evaluator] Correto, muito bem! (domínio de derivada: 0.73)</text>
+
+  <text x="20" y="336"><tspan fill="#56d364">você&gt;</tspan><tspan fill="#c9d1d9"> o que é a derivada?</tspan></text>
+  <text x="20" y="358" fill="#79c0ff">[Tutor · explicação breve] A derivada é a taxa de variação. (fonte: derivada)</text>
+
+  <text x="20" y="388"><tspan fill="#56d364">você&gt;</tspan><tspan fill="#c9d1d9"> relatório</tspan></text>
+  <text x="20" y="410" fill="#d2a8ff">[Analytics] acurácia 100%  ·  [Mentor] próximo tema recomendado: integral</text>
+
+  <text x="20" y="446"><tspan fill="#56d364">você&gt;</tspan><tspan fill="#c9d1d9"> sair</tspan><tspan fill="#8b949e">   (o modelo do aluno é salvo para a próxima sessão)</tspan></text>
+</svg>

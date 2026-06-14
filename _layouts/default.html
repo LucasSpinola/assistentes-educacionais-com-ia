@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'pt-BR' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <style>
+    :root { --azul: #0969da; --tinta: #1f2328; --suave: #656d76; --linha: #d0d7de; --fundo-codigo: #f6f8fa; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: var(--tinta);
+      line-height: 1.6;
+      background: #fff;
+    }
+    a { color: var(--azul); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header.topo {
+      position: sticky; top: 0; z-index: 10;
+      background: #fff; border-bottom: 1px solid var(--linha);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 20px;
+    }
+    header.topo .marca { font-weight: 600; color: var(--tinta); }
+    header.topo nav a { margin-left: 18px; font-size: 14px; }
+    main {
+      max-width: 860px; margin: 0 auto; padding: 32px 20px 80px;
+    }
+    main img { max-width: 100%; height: auto; }
+    h1, h2, h3 { line-height: 1.25; margin-top: 1.6em; }
+    h1 { font-size: 2em; }
+    h2 { padding-bottom: .3em; border-bottom: 1px solid var(--linha); }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 85%; background: var(--fundo-codigo);
+      padding: .2em .4em; border-radius: 6px;
+    }
+    pre {
+      background: var(--fundo-codigo); padding: 16px; border-radius: 8px;
+      overflow: auto; line-height: 1.45;
+    }
+    pre code { background: none; padding: 0; font-size: 90%; }
+    blockquote {
+      margin: 1em 0; padding: 0 1em; color: var(--suave);
+      border-left: .25em solid var(--linha);
+    }
+    table { border-collapse: collapse; width: 100%; margin: 1em 0; display: block; overflow: auto; }
+    th, td { border: 1px solid var(--linha); padding: 6px 13px; }
+    tr:nth-child(2n) { background: var(--fundo-codigo); }
+    .mermaid { margin: 1.5em 0; text-align: center; }
+    footer { max-width: 860px; margin: 0 auto; padding: 24px 20px 60px; color: var(--suave); font-size: 14px; border-top: 1px solid var(--linha); }
+  </style>
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="{{ '/' | relative_url }}">AI for Educational Assistants</a>
+    <nav>
+      <a href="{{ '/roadmap' | relative_url }}">Trilha</a>
+      <a href="{{ '/docs/como-estudar' | relative_url }}">Como estudar</a>
+      <a href="https://github.com/LucasSpinola/assistentes-educacionais-com-ia">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    Conteúdo sob Creative Commons Atribuição 4.0, código sob licença MIT.
+  </footer>
+
+  <!-- MathJax: fórmulas com $...$ e $$...$$ -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
+  <!-- Mermaid: converte os blocos ```mermaid em diagramas -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: false, theme: 'default' });
+    document.querySelectorAll('.language-mermaid').forEach(function (bloco) {
+      var div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = bloco.textContent.trim();
+      bloco.replaceWith(div);
+    });
+    mermaid.run();
+  </script>
+</body>
+</html>

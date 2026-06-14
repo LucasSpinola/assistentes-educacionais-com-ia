@@ -1,0 +1,25 @@
+title: AI for Educational Assistants
+description: Trilha aberta e gratuita para construir assistentes educacionais inteligentes, do zero ao avançado.
+lang: pt-BR
+
+# Deixa as fórmulas LaTeX (inclusive as de cifrão simples) para o MathJax tratar,
+# em vez de o kramdown converter para um formato que o MathJax 3 não lê.
+kramdown:
+  input: GFM
+  math_engine:
+
+# Garante que todas as páginas usem o layout com Mermaid e MathJax.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Arquivos que não fazem parte do site.
+exclude:
+  - Makefile
+  - requirements.txt
+  - .env.example
+  - .gitignore
+  - LICENSE
+  - LICENSE-CONTENT
