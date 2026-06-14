@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # AI for Educational Assistants
 
@@ -14,7 +14,7 @@ implementada do zero em Python e reunida, no final, em um assistente educacional
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB)
 ![Status](https://img.shields.io/badge/status-trilha%20completa-brightgreen)
 
-[Trilha](roadmap.md) · [Como estudar](docs/como-estudar.md) · [Instalação](docs/setup.md) · [Projetos](projects/) · [Projeto final](projects/m14-final-assistant/)
+[Site](https://lucasspinola.github.io/assistentes-educacionais-com-ia/) · [Trilha](roadmap.md) · [Como estudar](docs/como-estudar.md) · [Instalação](docs/setup.md) · [Projetos](projects/) · [Projeto final](projects/m14-final-assistant/)
 
 </div>
 
@@ -25,6 +25,10 @@ Processamento de Linguagem Natural até Large Language Models, Retrieval-Augment
 sistemas de agentes, Learning Analytics e modelagem de longo prazo do aluno. Ele serve ao mesmo
 tempo como material de estudo, apoio à graduação, à iniciação científica e ao mestrado, como
 portfólio profissional e como base para pesquisa em IA aplicada à educação.
+
+O material também está disponível como site navegável, com a trilha na barra lateral e os diagramas
+e fórmulas renderizados, em
+[lucasspinola.github.io/assistentes-educacionais-com-ia](https://lucasspinola.github.io/assistentes-educacionais-com-ia/).
 
 ## O que você vai construir
 
