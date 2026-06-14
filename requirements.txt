@@ -1,0 +1,54 @@
+# Dependências do AI for Educational Assistants
+# Python 3.11 ou superior. Instale com: pip install -r requirements.txt
+#
+# As versões usam limites mínimos para facilitar a reprodução sem travar updates.
+# Se algum pacote pesado não for necessário para o módulo que você está estudando,
+# fique à vontade para instalar só o que precisa.
+
+# Base científica e dados
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+scipy>=1.11
+matplotlib>=3.8
+
+# NLP clássico
+nltk>=3.8
+spacy>=3.7
+gensim>=4.3
+
+# Embeddings e modelos
+sentence-transformers>=2.6
+transformers>=4.40
+torch>=2.2
+huggingface-hub>=0.23
+
+# LLM local e orquestração
+ollama>=0.2
+langchain>=0.2
+langchain-community>=0.2
+langchain-ollama>=0.1
+langgraph>=0.1
+
+# RAG e bancos vetoriais
+chromadb>=0.5
+qdrant-client>=1.9
+
+# Learning Analytics e dashboard
+plotly>=5.20
+streamlit>=1.33
+
+# Notebooks e utilidades
+jupyter>=1.0
+ipykernel>=6.29
+python-dotenv>=1.0
+tqdm>=4.66
+
+# APIs comerciais opcionais (descomente se for usar)
+# openai>=1.30
+# anthropic>=0.25
+# langchain-openai>=0.1
+# langchain-anthropic>=0.1
+
+# Testes
+pytest>=8.1

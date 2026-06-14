@@ -1,0 +1,43 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Variáveis de ambiente com segredos
+.env
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos, dados grandes e índices vetoriais locais
+*.gguf
+*.bin
+*.safetensors
+chroma/
+.chroma/
+qdrant_storage/
+
+# Saídas e artefatos
+outputs/
+logs/
+*.log
+
+# Modelo do aluno e relatório gerados pelo assistente do Módulo 14
+projects/m14-final-assistant/modelo_*.json
+relatorio_sessao.md
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
