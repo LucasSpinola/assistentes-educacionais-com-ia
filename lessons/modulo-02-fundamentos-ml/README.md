@@ -52,7 +52,7 @@ opcionais e degradam de forma graciosa quando a biblioteca não está instalada.
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-02/](../../notebooks/modulo-02/),
+- Notebooks executáveis em [notebooks/modulo-02/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-02),
   um para cada aula.
 - Convenções de notação matemática em
   [docs/notacao-matematica.md](../../docs/notacao-matematica.md).

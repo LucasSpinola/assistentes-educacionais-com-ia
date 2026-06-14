@@ -47,7 +47,7 @@ disponível.
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-08/](../../notebooks/modulo-08/),
+- Notebooks executáveis em [notebooks/modulo-08/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-08),
   um para cada aula.
 - Glossário dos termos em [docs/glossario.md](../../docs/glossario.md).
 - Referências de cada aula reunidas em

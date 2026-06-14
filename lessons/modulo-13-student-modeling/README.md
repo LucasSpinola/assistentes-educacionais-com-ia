@@ -47,7 +47,7 @@ Python. A versão com explicações geradas por LLM usa o Ollama, conforme o
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-13/](../../notebooks/modulo-13/),
+- Notebooks executáveis em [notebooks/modulo-13/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-13),
   um para cada aula.
 - Projeto completo em [projects/m13-student-modeling/](../../projects/m13-student-modeling/).
 - Referências de cada aula reunidas em

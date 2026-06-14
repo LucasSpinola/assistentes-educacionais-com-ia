@@ -84,7 +84,7 @@ e atualizá-la a partir de respostas a exercícios. Cada acerto aumenta o domín
 o diminui, de forma simples, e o perfil vai refletindo o que o aluno sabe.
 
 A estrutura é determinística e roda sem o modelo. O código está no notebook
-[notebooks/modulo-13/01-perfil-do-aluno.ipynb](../../notebooks/modulo-13/01-perfil-do-aluno.ipynb),
+[notebooks/modulo-13/01-perfil-do-aluno.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-13/01-perfil-do-aluno.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -50,7 +50,7 @@ a biblioteca transformers e o Ollama, que entram com o ambiente de
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-06/](../../notebooks/modulo-06/),
+- Notebooks executáveis em [notebooks/modulo-06/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-06),
   um para cada aula.
 - Glossário dos termos em [docs/glossario.md](../../docs/glossario.md).
 - Referências de cada aula reunidas em

@@ -88,7 +88,7 @@ determinístico que ilustra o encadeamento de passos.
 
 Esse encadeamento, em que a observação de um passo alimenta o próximo, é o que diferencia o
 planejamento da ação única. O código está no notebook
-[notebooks/modulo-10/03-planning.ipynb](../../notebooks/modulo-10/03-planning.ipynb), então
+[notebooks/modulo-10/03-planning.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-10/03-planning.ipynb), então
 abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -106,7 +106,7 @@ uma representação refinada da sequência, com a dimensão preservada.
 
 Ver o bloco inteiro funcionando deixa claro que um Transformer é, no fundo, a repetição
 disciplinada dessas peças simples. O código está no notebook
-[notebooks/modulo-06/03-encoder-decoder.ipynb](../../notebooks/modulo-06/03-encoder-decoder.ipynb),
+[notebooks/modulo-06/03-encoder-decoder.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-06/03-encoder-decoder.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

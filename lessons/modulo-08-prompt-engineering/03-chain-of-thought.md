@@ -92,7 +92,7 @@ frequência os problemas que exigem mais de um passo.
 A construção dos dois prompts é determinística e fácil de testar. A comparação real, com as
 respostas do modelo, vai no notebook via Ollama, com degradação graciosa. O código está no
 notebook
-[notebooks/modulo-08/03-chain-of-thought.ipynb](../../notebooks/modulo-08/03-chain-of-thought.ipynb),
+[notebooks/modulo-08/03-chain-of-thought.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-08/03-chain-of-thought.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -87,7 +87,7 @@ a profundidade da explicação e a dificuldade do exercício. Aplicado a alunos 
 ele produz recomendações diferentes, mostrando a personalização em ação.
 
 A decisão é determinística e roda sem o modelo. O código está no notebook
-[notebooks/modulo-13/04-personalizacao.ipynb](../../notebooks/modulo-13/04-personalizacao.ipynb),
+[notebooks/modulo-13/04-personalizacao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-13/04-personalizacao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

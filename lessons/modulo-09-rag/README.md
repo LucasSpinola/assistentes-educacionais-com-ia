@@ -51,7 +51,7 @@ densos, ChromaDB, Qdrant e geração com LLM usam bibliotecas e o Ollama, confor
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-09/](../../notebooks/modulo-09/),
+- Notebooks executáveis em [notebooks/modulo-09/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-09),
   um para cada aula.
 - Projeto completo em [projects/m09-rag-assistant/](../../projects/m09-rag-assistant/).
 - Referências de cada aula reunidas em

@@ -88,7 +88,7 @@ sem precisar do LLM, para garantir que o código é robusto.
 
 Depois, no notebook, pedimos JSON a um LLM de verdade via Ollama e passamos a resposta pelo
 extrator e pelo validador, fechando o ciclo. O código está no notebook
-[notebooks/modulo-08/04-structured-output.ipynb](../../notebooks/modulo-08/04-structured-output.ipynb),
+[notebooks/modulo-08/04-structured-output.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-08/04-structured-output.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

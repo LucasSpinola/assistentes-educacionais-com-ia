@@ -127,7 +127,7 @@ Para enxergar a estatística por dentro, vamos implementar o método do zero, ap
 contando palavras. Mais para frente na trilha usaremos bibliotecas prontas, como o
 scikit-learn, mas entender o que acontece por baixo faz toda a diferença. O código
 está no notebook
-[notebooks/modulo-01/04-ia-estatistica.ipynb](../../notebooks/modulo-01/04-ia-estatistica.ipynb),
+[notebooks/modulo-01/04-ia-estatistica.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-01/04-ia-estatistica.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

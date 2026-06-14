@@ -50,7 +50,7 @@ ela, com a média de vetores construída do zero.
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-04/](../../notebooks/modulo-04/),
+- Notebooks executáveis em [notebooks/modulo-04/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-04),
   um para cada aula.
 - Glossário dos termos em [docs/glossario.md](../../docs/glossario.md).
 - Referências de cada aula reunidas em

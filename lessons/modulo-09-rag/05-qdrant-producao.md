@@ -89,7 +89,7 @@ disciplina. Isso ilustra, sem depender de servidor, o recurso mais característi
 
 Em seguida, o notebook traz o caminho com o Qdrant de verdade, via Docker, como referência. O
 código está no notebook
-[notebooks/modulo-09/05-qdrant-producao.ipynb](../../notebooks/modulo-09/05-qdrant-producao.ipynb),
+[notebooks/modulo-09/05-qdrant-producao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-09/05-qdrant-producao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

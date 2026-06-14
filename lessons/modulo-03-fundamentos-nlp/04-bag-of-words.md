@@ -101,7 +101,7 @@ of Words com contagem crua.
 Esse cálculo de similaridade é, na prática, um classificador embrionário, pois
 poderíamos rotular uma pergunta nova pelo tema da pergunta conhecida mais parecida. O
 código está no notebook
-[notebooks/modulo-03/04-bag-of-words.ipynb](../../notebooks/modulo-03/04-bag-of-words.ipynb),
+[notebooks/modulo-03/04-bag-of-words.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-03/04-bag-of-words.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

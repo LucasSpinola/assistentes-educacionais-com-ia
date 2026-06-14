@@ -81,7 +81,7 @@ comunicam, um aluno que envia uma dúvida e um tutor que responde. É o menor si
 possível, mas já mostra o protocolo de comunicação funcionando.
 
 A troca de mensagens é determinística e roda sem o modelo. O código está no notebook
-[notebooks/modulo-11/01-comunicacao-entre-agentes.ipynb](../../notebooks/modulo-11/01-comunicacao-entre-agentes.ipynb),
+[notebooks/modulo-11/01-comunicacao-entre-agentes.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-11/01-comunicacao-entre-agentes.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

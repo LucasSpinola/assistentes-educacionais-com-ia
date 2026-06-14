@@ -89,7 +89,7 @@ comparação deixa claro por que o segundo é melhor.
 Esse mesmo conjunto de perguntas vai reaparecer nas próximas aulas, ganhando uma
 etapa de processamento de cada vez, até virar a entrada de um classificador de tema.
 O código está no notebook
-[notebooks/modulo-03/01-tokenizacao.ipynb](../../notebooks/modulo-03/01-tokenizacao.ipynb),
+[notebooks/modulo-03/01-tokenizacao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-03/01-tokenizacao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

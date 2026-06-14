@@ -97,7 +97,7 @@ média e a variação entre as dobras.
 
 Implementar a validação cruzada na mão deixa claro que não há mágica, apenas uma
 forma disciplinada de reaproveitar os dados sem trapacear. O código está no notebook
-[notebooks/modulo-02/04-validacao.ipynb](../../notebooks/modulo-02/04-validacao.ipynb),
+[notebooks/modulo-02/04-validacao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-02/04-validacao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

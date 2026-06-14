@@ -93,7 +93,7 @@ que aprende os pesos da recompensa.
 A expectativa, que vamos confirmar, é que o modelo recupere as proporções dos pesos
 verdadeiros e passe a prever as preferências com alta acurácia, mostrando que ele aprendeu o
 que torna uma resposta preferível. O código está no notebook
-[notebooks/modulo-07/04-rlhf.ipynb](../../notebooks/modulo-07/04-rlhf.ipynb), então abra-o ao
+[notebooks/modulo-07/04-rlhf.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-07/04-rlhf.ipynb), então abra-o ao
 lado para acompanhar.
 
 ## Código Comentado

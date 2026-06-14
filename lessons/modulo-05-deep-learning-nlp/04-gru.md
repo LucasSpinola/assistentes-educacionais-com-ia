@@ -107,7 +107,7 @@ problema técnico.
 Para o classificador, juntamos o que vimos no curso, representamos a mensagem com Bag of
 Words, do Módulo 3, e classificamos com a rede neural da primeira aula deste módulo. O
 código está no notebook
-[notebooks/modulo-05/04-gru.ipynb](../../notebooks/modulo-05/04-gru.ipynb), então abra-o
+[notebooks/modulo-05/04-gru.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-05/04-gru.ipynb), então abra-o
 ao lado para acompanhar, inclusive a versão opcional do classificador com uma GRU de
 verdade em PyTorch.
 

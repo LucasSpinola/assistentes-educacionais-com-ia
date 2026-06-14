@@ -112,7 +112,7 @@ números vão confirmar, é que a rede acerte as quatro combinações do XOR.
 Ver a rede funcionar do zero, sem bibliotecas, deixa claro que não há mágica, apenas
 multiplicações de matrizes, uma não linearidade e o gradiente fazendo o seu trabalho.
 O código está no notebook
-[notebooks/modulo-05/01-redes-neurais.ipynb](../../notebooks/modulo-05/01-redes-neurais.ipynb),
+[notebooks/modulo-05/01-redes-neurais.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-05/01-redes-neurais.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

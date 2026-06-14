@@ -46,7 +46,7 @@ padrão do Python. As evoluções com o LLM como gerador ou coordenador usam o O
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-11/](../../notebooks/modulo-11/),
+- Notebooks executáveis em [notebooks/modulo-11/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-11),
   um para cada aula.
 - Projeto completo em [projects/m11-multi-agent/](../../projects/m11-multi-agent/).
 - Referências de cada aula reunidas em

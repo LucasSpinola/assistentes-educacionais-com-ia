@@ -100,7 +100,7 @@ flexíveis, e acompanhamos o erro no treino e em um conjunto de teste separado.
 O grau baixo vai mostrar underfitting, com erro alto nos dois conjuntos. O grau alto
 vai mostrar overfitting, com erro baixo no treino e alto no teste. Em algum grau
 intermediário está o melhor equilíbrio. O código está no notebook
-[notebooks/modulo-02/03-overfitting-underfitting.ipynb](../../notebooks/modulo-02/03-overfitting-underfitting.ipynb),
+[notebooks/modulo-02/03-overfitting-underfitting.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-02/03-overfitting-underfitting.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

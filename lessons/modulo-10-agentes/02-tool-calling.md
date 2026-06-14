@@ -90,7 +90,7 @@ caso.
 
 No notebook, fechamos o ciclo enviando a pergunta ao LLM via Ollama, com a instrução de pedir
 ferramentas em JSON, e despachando o que ele decidir. O código está no notebook
-[notebooks/modulo-10/02-tool-calling.ipynb](../../notebooks/modulo-10/02-tool-calling.ipynb),
+[notebooks/modulo-10/02-tool-calling.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-10/02-tool-calling.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

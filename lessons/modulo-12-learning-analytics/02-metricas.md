@@ -82,7 +82,7 @@ geral e por tema, o volume de exercícios, e o progresso entre a primeira e a se
 sessão. O resultado é um pequeno painel numérico de cada aluno.
 
 Os cálculos são determinísticos e rodam sem o modelo. O código está no notebook
-[notebooks/modulo-12/02-metricas.ipynb](../../notebooks/modulo-12/02-metricas.ipynb), então abra-o
+[notebooks/modulo-12/02-metricas.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-12/02-metricas.ipynb), então abra-o
 ao lado para acompanhar.
 
 ## Código Comentado

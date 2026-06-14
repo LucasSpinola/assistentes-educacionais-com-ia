@@ -85,7 +85,7 @@ dúvida com o Tutor, responde a um exercício que o Evaluator avalia e o Analyti
 final o Mentor olha o desempenho e sugere o próximo passo. É o time completo cooperando.
 
 Todo o fluxo é determinístico e roda sem o modelo. O código está no notebook
-[notebooks/modulo-11/03-especializacao.ipynb](../../notebooks/modulo-11/03-especializacao.ipynb),
+[notebooks/modulo-11/03-especializacao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-11/03-especializacao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

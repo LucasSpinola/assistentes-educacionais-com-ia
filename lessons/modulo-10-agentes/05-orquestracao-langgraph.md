@@ -83,7 +83,7 @@ notebook mostra o mesmo agente com o LangGraph, como caminho opcional.
 
 Ver a orquestração explícita deixa claro como as peças do módulo se encaixam. O código está no
 notebook
-[notebooks/modulo-10/05-orquestracao-langgraph.ipynb](../../notebooks/modulo-10/05-orquestracao-langgraph.ipynb),
+[notebooks/modulo-10/05-orquestracao-langgraph.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-10/05-orquestracao-langgraph.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

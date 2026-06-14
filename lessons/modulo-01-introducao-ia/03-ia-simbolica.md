@@ -120,7 +120,7 @@ Esse exemplo é proposital. Ele resolve bem um problema bem delimitado e explica
 cada conclusão, o que é a marca da IA simbólica. Mais adiante na trilha, quando os
 casos ficarem ambíguos e cheios de exceções, vamos sentir por que precisamos
 também das abordagens que aprendem com dados. O código está no notebook
-[notebooks/modulo-01/03-ia-simbolica.ipynb](../../notebooks/modulo-01/03-ia-simbolica.ipynb),
+[notebooks/modulo-01/03-ia-simbolica.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-01/03-ia-simbolica.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

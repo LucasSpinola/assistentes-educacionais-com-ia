@@ -53,7 +53,7 @@ API.
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-01/](../../notebooks/modulo-01/),
+- Notebooks executáveis em [notebooks/modulo-01/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-01),
   um para cada aula.
 - Glossário dos termos que aparecem no módulo em
   [docs/glossario.md](../../docs/glossario.md).

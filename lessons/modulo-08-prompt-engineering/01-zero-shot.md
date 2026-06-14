@@ -92,7 +92,7 @@ aluno do que o prompt solto.
 Construir o prompt é só montar uma string com os elementos certos, algo determinístico que
 podemos testar sem o modelo. O envio ao LLM vai no notebook, com degradação graciosa caso o
 Ollama não esteja disponível. O código está no notebook
-[notebooks/modulo-08/01-zero-shot.ipynb](../../notebooks/modulo-08/01-zero-shot.ipynb),
+[notebooks/modulo-08/01-zero-shot.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-08/01-zero-shot.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

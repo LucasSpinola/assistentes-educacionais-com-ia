@@ -88,7 +88,7 @@ comum, enquanto o embedding denso ainda encontre o trecho certo pela proximidade
 Como os Sentence Transformers exigem uma biblioteca pesada, o notebook traz a versão densa como
 caminho opcional, e demonstra o conceito com o TF-IDF e um pequeno exemplo de chunking que roda
 sem dependências. O código está no notebook
-[notebooks/modulo-09/02-embeddings-e-vetores.ipynb](../../notebooks/modulo-09/02-embeddings-e-vetores.ipynb),
+[notebooks/modulo-09/02-embeddings-e-vetores.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-09/02-embeddings-e-vetores.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -50,7 +50,7 @@ LLM como controlador e com o LangGraph usam o Ollama e bibliotecas, conforme o
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-10/](../../notebooks/modulo-10/),
+- Notebooks executáveis em [notebooks/modulo-10/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-10),
   um para cada aula.
 - Projeto completo em [projects/m10-tutor-agent/](../../projects/m10-tutor-agent/).
 - Referências de cada aula reunidas em

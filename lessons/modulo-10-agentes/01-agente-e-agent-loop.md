@@ -90,7 +90,7 @@ para ver o ciclo perceber, decidir, agir e observar funcionando.
 A calculadora é implementada com segurança, sem usar a função eval, para não executar código
 arbitrário. Nas próximas aulas, o controlador vira o LLM e o loop ganha várias etapas. O código
 está no notebook
-[notebooks/modulo-10/01-agente-e-agent-loop.ipynb](../../notebooks/modulo-10/01-agente-e-agent-loop.ipynb),
+[notebooks/modulo-10/01-agente-e-agent-loop.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-10/01-agente-e-agent-loop.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

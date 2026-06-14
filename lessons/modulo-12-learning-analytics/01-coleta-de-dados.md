@@ -88,7 +88,7 @@ coleção, faremos uma consulta simples, contar os eventos de um aluno, antecipa
 próximas aulas.
 
 A estruturação é determinística e roda sem o modelo. O código está no notebook
-[notebooks/modulo-12/01-coleta-de-dados.ipynb](../../notebooks/modulo-12/01-coleta-de-dados.ipynb),
+[notebooks/modulo-12/01-coleta-de-dados.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-12/01-coleta-de-dados.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

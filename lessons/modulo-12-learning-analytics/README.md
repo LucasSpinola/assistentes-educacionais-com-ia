@@ -46,7 +46,7 @@ e o app com Streamlit e Plotly entram com o ambiente de [docs/setup.md](../../do
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-12/](../../notebooks/modulo-12/),
+- Notebooks executáveis em [notebooks/modulo-12/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-12),
   um para cada aula.
 - Projeto completo em [projects/m12-analytics-dashboard/](../../projects/m12-analytics-dashboard/).
 - Referências de cada aula reunidas em

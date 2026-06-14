@@ -133,7 +133,7 @@ O cenário é simples. Temos perguntas curtas de alunos e queremos classificá-l
 temas como cálculo, álgebra linear e estatística. Em seguida, vamos pedir a um
 modelo generativo que escreva uma explicação para o aluno. Esse mesmo exemplo
 roda no notebook
-[notebooks/modulo-01/01-o-que-e-ia.ipynb](../../notebooks/modulo-01/01-o-que-e-ia.ipynb),
+[notebooks/modulo-01/01-o-que-e-ia.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-01/01-o-que-e-ia.ipynb),
 então abra-o ao lado para acompanhar o código rodando.
 
 ## Código Comentado

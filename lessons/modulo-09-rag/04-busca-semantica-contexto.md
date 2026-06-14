@@ -89,7 +89,7 @@ com o Ollama quando disponível.
 
 A montagem do contexto e o tratamento da ausência são determinísticos e rodam sem o modelo. O
 código está no notebook
-[notebooks/modulo-09/04-busca-semantica-contexto.ipynb](../../notebooks/modulo-09/04-busca-semantica-contexto.ipynb),
+[notebooks/modulo-09/04-busca-semantica-contexto.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-09/04-busca-semantica-contexto.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

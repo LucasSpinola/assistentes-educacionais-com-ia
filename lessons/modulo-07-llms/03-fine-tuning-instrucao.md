@@ -98,7 +98,7 @@ direta e útil.
 
 Como isso depende de ter os dois modelos disponíveis, o notebook lida com a ausência de
 qualquer um deles de forma graciosa, explicando como obtê-los. O código está no notebook
-[notebooks/modulo-07/03-fine-tuning-instrucao.ipynb](../../notebooks/modulo-07/03-fine-tuning-instrucao.ipynb),
+[notebooks/modulo-07/03-fine-tuning-instrucao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-07/03-fine-tuning-instrucao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

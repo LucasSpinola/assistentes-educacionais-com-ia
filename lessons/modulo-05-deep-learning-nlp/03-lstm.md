@@ -112,7 +112,7 @@ O contraste com a RNN simples é gritante. Na RNN, um sinal inicial de valor 1 d
 cerca de 0,03 em cinco passos e chega a praticamente 0 em vinte e cinco. Na LSTM, a
 mesma memória inicial de valor 1 ainda vale cerca de 0,94 após vinte e cinco passos. A
 esteira preservou a informação. O código está no notebook
-[notebooks/modulo-05/03-lstm.ipynb](../../notebooks/modulo-05/03-lstm.ipynb), então
+[notebooks/modulo-05/03-lstm.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-05/03-lstm.ipynb), então
 abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -87,7 +87,7 @@ o aluno, como o nome e o nível, e o agente os recupera para adaptar o atendimen
 
 O armazém é determinístico e roda sem o modelo, deixando claro o mecanismo. O código está no
 notebook
-[notebooks/modulo-10/04-memory.ipynb](../../notebooks/modulo-10/04-memory.ipynb), então abra-o ao
+[notebooks/modulo-10/04-memory.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-10/04-memory.ipynb), então abra-o ao
 lado para acompanhar.
 
 ## Código Comentado

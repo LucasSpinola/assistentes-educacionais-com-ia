@@ -95,7 +95,7 @@ os alunos com alta probabilidade de evasão. A expectativa é um modelo bem acim
 identificar a maioria dos casos.
 
 O treino usa numpy e roda do zero. O código está no notebook
-[notebooks/modulo-12/04-predicao-de-evasao.ipynb](../../notebooks/modulo-12/04-predicao-de-evasao.ipynb),
+[notebooks/modulo-12/04-predicao-de-evasao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-12/04-predicao-de-evasao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

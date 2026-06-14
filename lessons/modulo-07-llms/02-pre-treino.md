@@ -100,7 +100,7 @@ grandes modelos.
 A expectativa, que vamos confirmar, é uma perplexidade bem menor que o tamanho do
 vocabulário, sinal de que mesmo um modelo tão simples já capturou parte da estrutura do
 texto. O código está no notebook
-[notebooks/modulo-07/02-pre-treino.ipynb](../../notebooks/modulo-07/02-pre-treino.ipynb),
+[notebooks/modulo-07/02-pre-treino.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-07/02-pre-treino.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

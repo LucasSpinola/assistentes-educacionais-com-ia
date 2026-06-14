@@ -143,7 +143,7 @@ aprender, por mais épocas que treine. Ver o perceptron falhar no XOR é entende
 com as próprias mãos, o resultado que mudou o rumo da IA.
 
 O código abaixo está no notebook
-[notebooks/modulo-01/02-historia-da-ia.ipynb](../../notebooks/modulo-01/02-historia-da-ia.ipynb),
+[notebooks/modulo-01/02-historia-da-ia.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-01/02-historia-da-ia.ipynb),
 então abra-o ao lado para rodar e experimentar.
 
 ## Código Comentado

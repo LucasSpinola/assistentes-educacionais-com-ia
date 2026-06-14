@@ -53,7 +53,7 @@ spaCy, aparecem como sugestão de aprofundamento.
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-03/](../../notebooks/modulo-03/),
+- Notebooks executáveis em [notebooks/modulo-03/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-03),
   um para cada aula.
 - Glossário dos termos de NLP em [docs/glossario.md](../../docs/glossario.md).
 - Referências de cada aula reunidas em

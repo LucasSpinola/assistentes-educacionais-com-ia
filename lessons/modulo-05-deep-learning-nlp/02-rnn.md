@@ -104,7 +104,7 @@ elementos, a RNN acerta praticamente sempre. Com uma sequência longa, de vinte 
 elementos, a acurácia despenca para perto de 50 por cento, ou seja, o puro acaso, pois
 o gradiente sumiu e a rede não conseguiu aprender a carregar o primeiro bit por tanto
 tempo. O código está no notebook
-[notebooks/modulo-05/02-rnn.ipynb](../../notebooks/modulo-05/02-rnn.ipynb), então
+[notebooks/modulo-05/02-rnn.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-05/02-rnn.ipynb), então
 abra-o ao lado para acompanhar.
 
 ## Código Comentado

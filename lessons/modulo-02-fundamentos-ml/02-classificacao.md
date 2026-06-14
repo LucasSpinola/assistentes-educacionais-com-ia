@@ -119,7 +119,7 @@ zero e medimos quantos exemplos ela acerta.
 Implementar na mão deixa claro que a classificação não é tão diferente da regressão,
 muda a função que produz a saída e a forma de medir o erro, mas o motor de
 otimização é o mesmo. O código está no notebook
-[notebooks/modulo-02/02-classificacao.ipynb](../../notebooks/modulo-02/02-classificacao.ipynb),
+[notebooks/modulo-02/02-classificacao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-02/02-classificacao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -90,7 +90,7 @@ constância, e usá-lo para separar quem está engajado de quem está se afastan
 um aluno ativo e constante tenha índice alto, e um aluno esporádico tenha índice baixo.
 
 O cálculo é determinístico e roda sem o modelo. O código está no notebook
-[notebooks/modulo-12/03-engajamento.ipynb](../../notebooks/modulo-12/03-engajamento.ipynb), então
+[notebooks/modulo-12/03-engajamento.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-12/03-engajamento.ipynb), então
 abra-o ao lado para acompanhar.
 
 ## Código Comentado

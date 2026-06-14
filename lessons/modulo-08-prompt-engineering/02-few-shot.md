@@ -89,7 +89,7 @@ mesmo formato curto.
 
 A montagem do prompt a partir dos exemplos é determinística e podemos testá-la sem o modelo. O
 envio ao LLM vai no notebook, com degradação graciosa. O código está no notebook
-[notebooks/modulo-08/02-few-shot.ipynb](../../notebooks/modulo-08/02-few-shot.ipynb), então
+[notebooks/modulo-08/02-few-shot.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-08/02-few-shot.ipynb), então
 abra-o ao lado para acompanhar.
 
 ## Código Comentado

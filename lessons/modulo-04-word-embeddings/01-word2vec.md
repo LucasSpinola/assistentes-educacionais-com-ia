@@ -102,7 +102,7 @@ próximos, enquanto gato e peixe, que não compartilham contexto, fiquem distant
 É um corpus minúsculo e um modelo minúsculo, então não espere magia, mas o suficiente
 para ver os embeddings emergirem de verdade. Mais adiante usaremos bibliotecas como o
 gensim, que treinam Word2Vec em grandes corpora. O código está no notebook
-[notebooks/modulo-04/01-word2vec.ipynb](../../notebooks/modulo-04/01-word2vec.ipynb),
+[notebooks/modulo-04/01-word2vec.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-04/01-word2vec.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

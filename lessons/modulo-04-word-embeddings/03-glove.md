@@ -99,7 +99,7 @@ esperamos que os seus vetores fiquem praticamente colados.
 De fato, neste corpus tão simétrico, a similaridade entre gato e cachorro chega perto
 de 1, o que ilustra bem o princípio, ainda que num caso extremo causado pelo tamanho
 do corpus. O código está no notebook
-[notebooks/modulo-04/03-glove.ipynb](../../notebooks/modulo-04/03-glove.ipynb),
+[notebooks/modulo-04/03-glove.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-04/03-glove.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

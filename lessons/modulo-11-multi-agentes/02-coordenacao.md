@@ -88,7 +88,7 @@ dúvidas, um Evaluator para respostas, um Mentor para sugestões. Cada agente te
 coordenador apenas decide o destino, mostrando o padrão de supervisor em ação.
 
 O roteamento é determinístico e roda sem o modelo. O código está no notebook
-[notebooks/modulo-11/02-coordenacao.ipynb](../../notebooks/modulo-11/02-coordenacao.ipynb), então
+[notebooks/modulo-11/02-coordenacao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-11/02-coordenacao.ipynb), então
 abra-o ao lado para acompanhar.
 
 ## Código Comentado

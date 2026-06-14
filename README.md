@@ -94,20 +94,20 @@ A trilha completa, com pré-requisitos e dependências entre os módulos, está 
 
 | Módulo | Tema | Projeto | Notebook |
 |---|---|---|---|
-| 01 | [Introdução à IA](lessons/modulo-01-introducao-ia/) | | [notebooks](notebooks/modulo-01/) |
-| 02 | [Fundamentos de Machine Learning](lessons/modulo-02-fundamentos-ml/) | | [notebooks](notebooks/modulo-02/) |
-| 03 | [Fundamentos de NLP](lessons/modulo-03-fundamentos-nlp/) | | [notebooks](notebooks/modulo-03/) |
-| 04 | [Word Embeddings](lessons/modulo-04-word-embeddings/) | | [notebooks](notebooks/modulo-04/) |
-| 05 | [Deep Learning para NLP](lessons/modulo-05-deep-learning-nlp/) | | [notebooks](notebooks/modulo-05/) |
-| 06 | [Transformers](lessons/modulo-06-transformers/) | | [notebooks](notebooks/modulo-06/) |
-| 07 | [Large Language Models](lessons/modulo-07-llms/) | | [notebooks](notebooks/modulo-07/) |
-| 08 | [Prompt Engineering](lessons/modulo-08-prompt-engineering/) | | [notebooks](notebooks/modulo-08/) |
-| 09 | [Retrieval-Augmented Generation](lessons/modulo-09-rag/) | [Assistente sobre documentos](projects/m09-rag-assistant/) | [notebooks](notebooks/modulo-09/) |
-| 10 | [Agentes](lessons/modulo-10-agentes/) | [Agente tutor](projects/m10-tutor-agent/) | [notebooks](notebooks/modulo-10/) |
-| 11 | [Multi-Agentes](lessons/modulo-11-multi-agentes/) | [Tutor, Evaluator, Mentor e Analytics](projects/m11-multi-agent/) | [notebooks](notebooks/modulo-11/) |
-| 12 | [Learning Analytics](lessons/modulo-12-learning-analytics/) | [Dashboard de aprendizado](projects/m12-analytics-dashboard/) | [notebooks](notebooks/modulo-12/) |
-| 13 | [Long-Term Student Modeling](lessons/modulo-13-student-modeling/) | [Sistema adaptativo](projects/m13-student-modeling/) | [notebooks](notebooks/modulo-13/) |
-| 14 | [Projeto Final](lessons/modulo-14-projeto-final/) | [Assistente educacional multi-agente completo](projects/m14-final-assistant/) | [notebooks](notebooks/modulo-14/) |
+| 01 | [Introdução à IA](lessons/modulo-01-introducao-ia/) | | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-01) |
+| 02 | [Fundamentos de Machine Learning](lessons/modulo-02-fundamentos-ml/) | | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-02) |
+| 03 | [Fundamentos de NLP](lessons/modulo-03-fundamentos-nlp/) | | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-03) |
+| 04 | [Word Embeddings](lessons/modulo-04-word-embeddings/) | | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-04) |
+| 05 | [Deep Learning para NLP](lessons/modulo-05-deep-learning-nlp/) | | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-05) |
+| 06 | [Transformers](lessons/modulo-06-transformers/) | | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-06) |
+| 07 | [Large Language Models](lessons/modulo-07-llms/) | | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-07) |
+| 08 | [Prompt Engineering](lessons/modulo-08-prompt-engineering/) | | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-08) |
+| 09 | [Retrieval-Augmented Generation](lessons/modulo-09-rag/) | [Assistente sobre documentos](projects/m09-rag-assistant/) | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-09) |
+| 10 | [Agentes](lessons/modulo-10-agentes/) | [Agente tutor](projects/m10-tutor-agent/) | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-10) |
+| 11 | [Multi-Agentes](lessons/modulo-11-multi-agentes/) | [Tutor, Evaluator, Mentor e Analytics](projects/m11-multi-agent/) | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-11) |
+| 12 | [Learning Analytics](lessons/modulo-12-learning-analytics/) | [Dashboard de aprendizado](projects/m12-analytics-dashboard/) | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-12) |
+| 13 | [Long-Term Student Modeling](lessons/modulo-13-student-modeling/) | [Sistema adaptativo](projects/m13-student-modeling/) | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-13) |
+| 14 | [Projeto Final](lessons/modulo-14-projeto-final/) | [Assistente educacional multi-agente completo](projects/m14-final-assistant/) | [notebooks](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-14) |
 
 ## Estrutura do repositório
 

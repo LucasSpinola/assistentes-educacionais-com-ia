@@ -102,7 +102,7 @@ value, calcula a sua própria atenção e produz a sua saída, que depois concat
 O objetivo é ver, concretamente, que cabeças diferentes geram matrizes de atenção
 diferentes, ou seja, olham a frase de jeitos distintos, e que a concatenação produz uma
 representação da dimensão original. O código está no notebook
-[notebooks/modulo-06/02-multi-head-attention.ipynb](../../notebooks/modulo-06/02-multi-head-attention.ipynb),
+[notebooks/modulo-06/02-multi-head-attention.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-06/02-multi-head-attention.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

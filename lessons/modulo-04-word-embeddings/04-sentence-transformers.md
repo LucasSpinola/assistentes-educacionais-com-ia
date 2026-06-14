@@ -102,7 +102,7 @@ do ranking, à frente das de álgebra e programação, mostrando a busca por sen
 funcionando. O notebook também traz um caminho opcional com a biblioteca
 sentence-transformers, que faz a mesma busca com um modelo de verdade, bem mais
 poderoso. O código está no notebook
-[notebooks/modulo-04/04-sentence-transformers.ipynb](../../notebooks/modulo-04/04-sentence-transformers.ipynb),
+[notebooks/modulo-04/04-sentence-transformers.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-04/04-sentence-transformers.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -83,7 +83,7 @@ Simulamos duas sessões, na primeira o aluno estuda e o perfil é salvo, na segu
 carregado e a sessão continua de onde parou, mostrando a continuidade.
 
 A persistência usa só a biblioteca padrão e roda sem o modelo. O código está no notebook
-[notebooks/modulo-13/02-memoria-de-longo-prazo.ipynb](../../notebooks/modulo-13/02-memoria-de-longo-prazo.ipynb),
+[notebooks/modulo-13/02-memoria-de-longo-prazo.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-13/02-memoria-de-longo-prazo.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

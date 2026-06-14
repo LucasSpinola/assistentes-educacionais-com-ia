@@ -97,7 +97,7 @@ um dos controles mais importantes da geração.
 Depois, no notebook, conversamos com um LLM de verdade rodando localmente via Ollama,
 gerando texto e variando a temperatura para sentir o efeito na criatividade das respostas.
 O código está no notebook
-[notebooks/modulo-07/01-como-llms-funcionam.ipynb](../../notebooks/modulo-07/01-como-llms-funcionam.ipynb),
+[notebooks/modulo-07/01-como-llms-funcionam.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-07/01-como-llms-funcionam.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

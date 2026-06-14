@@ -92,7 +92,7 @@ radical.
 Vamos comparar o vocabulário antes e depois do stemming, e observar casos em que o
 corte funciona bem e casos em que exagera, o que motiva métodos mais cuidadosos. O
 código está no notebook
-[notebooks/modulo-03/03-stemming-lemmatizacao.ipynb](../../notebooks/modulo-03/03-stemming-lemmatizacao.ipynb),
+[notebooks/modulo-03/03-stemming-lemmatizacao.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-03/03-stemming-lemmatizacao.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

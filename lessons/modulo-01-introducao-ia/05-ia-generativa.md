@@ -119,7 +119,7 @@ Em seguida, no notebook, vamos pedir a um modelo de verdade, rodando localmente 
 Ollama, que escreva uma explicação para um aluno, e comparar a diferença de
 qualidade. Assim fica claro que a ideia é a mesma, mas a escala muda tudo. O código
 está em
-[notebooks/modulo-01/05-ia-generativa.ipynb](../../notebooks/modulo-01/05-ia-generativa.ipynb),
+[notebooks/modulo-01/05-ia-generativa.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-01/05-ia-generativa.ipynb),
 então abra-o ao lado para acompanhar e experimentar.
 
 ## Código Comentado

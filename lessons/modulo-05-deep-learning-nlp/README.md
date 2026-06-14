@@ -49,7 +49,7 @@ nada. A parte opcional da última aula usa PyTorch, que entra com o ambiente de
 
 ## Material de apoio
 
-- Notebooks executáveis em [notebooks/modulo-05/](../../notebooks/modulo-05/),
+- Notebooks executáveis em [notebooks/modulo-05/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-05),
   um para cada aula.
 - Convenções de notação em [docs/notacao-matematica.md](../../docs/notacao-matematica.md).
 - Referências de cada aula reunidas em

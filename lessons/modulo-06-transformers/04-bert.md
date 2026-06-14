@@ -96,7 +96,7 @@ O resultado é claro. Olhando só para gato, tanto bebe quanto come parecem poss
 Olhando também para leite, à direita, bebe vence com folga, porque come leite nunca
 aparece no corpus. O notebook também traz um caminho opcional que usa um BERT de verdade
 para preencher a lacuna. O código está no notebook
-[notebooks/modulo-06/04-bert.ipynb](../../notebooks/modulo-06/04-bert.ipynb), então
+[notebooks/modulo-06/04-bert.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-06/04-bert.ipynb), então
 abra-o ao lado para acompanhar.
 
 ## Código Comentado

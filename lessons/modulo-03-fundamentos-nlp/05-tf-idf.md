@@ -103,7 +103,7 @@ pergunta nova pelo tema cujo vetor é mais parecido com o dela, segundo o cossen
 Esse classificador junta tudo o que vimos, tokenização, remoção de stopwords,
 normalização e a representação vetorial com pesos inteligentes. O código está no
 notebook
-[notebooks/modulo-03/05-tf-idf.ipynb](../../notebooks/modulo-03/05-tf-idf.ipynb),
+[notebooks/modulo-03/05-tf-idf.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-03/05-tf-idf.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -102,7 +102,7 @@ enquanto erros sucessivos o mantenham baixo, sempre de forma gradual, por causa 
 chute.
 
 A atualização é determinística e roda sem o modelo. O código está no notebook
-[notebooks/modulo-13/03-modelagem-cognitiva.ipynb](../../notebooks/modulo-13/03-modelagem-cognitiva.ipynb),
+[notebooks/modulo-13/03-modelagem-cognitiva.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-13/03-modelagem-cognitiva.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

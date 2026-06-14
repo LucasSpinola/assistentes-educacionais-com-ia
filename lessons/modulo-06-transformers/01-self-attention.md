@@ -105,7 +105,7 @@ porque a atenção, no fundo, mede similaridade.
 
 Não vamos treinar nada, apenas aplicar a fórmula sobre embeddings escolhidos a dedo, o
 que já revela o mecanismo. O código está no notebook
-[notebooks/modulo-06/01-self-attention.ipynb](../../notebooks/modulo-06/01-self-attention.ipynb),
+[notebooks/modulo-06/01-self-attention.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-06/01-self-attention.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -94,7 +94,7 @@ realmente ligados a cálculo, álgebra e programação.
 
 Esse texto filtrado é uma representação mais enxuta e mais informativa, e será a
 entrada das aulas de Bag of Words e TF-IDF. O código está no notebook
-[notebooks/modulo-03/02-stopwords.ipynb](../../notebooks/modulo-03/02-stopwords.ipynb),
+[notebooks/modulo-03/02-stopwords.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-03/02-stopwords.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

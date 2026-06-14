@@ -94,7 +94,7 @@ esse trecho a um LLM.
 
 Esse esqueleto, propositalmente simples, deixa claras todas as etapas do pipeline antes de
 trocarmos as peças por versões mais poderosas nas próximas aulas. O código está no notebook
-[notebooks/modulo-09/01-pipeline-de-rag.ipynb](../../notebooks/modulo-09/01-pipeline-de-rag.ipynb),
+[notebooks/modulo-09/01-pipeline-de-rag.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-09/01-pipeline-de-rag.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

@@ -83,7 +83,7 @@ top-k por cosseno. Isso deixa claro o que um banco vetorial faz, sem nenhuma dep
 
 Em seguida, o notebook mostra o ChromaDB de verdade fazendo o mesmo trabalho com muito menos
 código, como caminho opcional. O código está no notebook
-[notebooks/modulo-09/03-chromadb-na-pratica.ipynb](../../notebooks/modulo-09/03-chromadb-na-pratica.ipynb),
+[notebooks/modulo-09/03-chromadb-na-pratica.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-09/03-chromadb-na-pratica.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado

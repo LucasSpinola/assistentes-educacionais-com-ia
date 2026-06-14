@@ -53,7 +53,7 @@ vetorial e geração com LLM, usam bibliotecas e o Ollama, conforme o
 
 ## Material de apoio
 
-- Notebook executável em [notebooks/modulo-14/](../../notebooks/modulo-14/), que roda uma sessão
+- Notebook executável em [notebooks/modulo-14/](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/tree/main/notebooks/modulo-14), que roda uma sessão
   completa do assistente.
 - Projeto final completo em [projects/m14-final-assistant/](../../projects/m14-final-assistant/).
 - Referências dos guias reunidas em

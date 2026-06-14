@@ -96,7 +96,7 @@ por diante, exatamente o que esperamos de um modelo que gera da esquerda para a 
 Em seguida, o notebook traz um caminho que usa um modelo de verdade rodando localmente via
 Ollama, para ver a geração autorregressiva em ação, fechando o arco que começou no gerador
 de n-gramas. O código está no notebook
-[notebooks/modulo-06/05-gpt.ipynb](../../notebooks/modulo-06/05-gpt.ipynb), então abra-o ao
+[notebooks/modulo-06/05-gpt.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-06/05-gpt.ipynb), então abra-o ao
 lado para acompanhar.
 
 ## Código Comentado

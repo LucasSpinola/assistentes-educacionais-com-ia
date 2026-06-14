@@ -101,7 +101,7 @@ tratamento de palavras novas que o Word2Vec não tinha.
 Esse exemplo usa apenas as contagens de n-gramas, sem treinar embeddings, o que basta
 para ver a ideia funcionando. Na prática, usaríamos o gensim com FastText. O código
 está no notebook
-[notebooks/modulo-04/02-fasttext.ipynb](../../notebooks/modulo-04/02-fasttext.ipynb),
+[notebooks/modulo-04/02-fasttext.ipynb](https://github.com/LucasSpinola/assistentes-educacionais-com-ia/blob/main/notebooks/modulo-04/02-fasttext.ipynb),
 então abra-o ao lado para acompanhar.
 
 ## Código Comentado
